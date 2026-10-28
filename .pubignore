@@ -1,0 +1,13 @@
+.github/
+.vscode/
+.idea/
+*.iml
+.env
+.venv/
+build/
+/build/
+example/build/
+example/.dart_tool/
+example/.flutter-plugins
+example/.flutter-plugins-dependencies
+example/.metadata
