@@ -332,19 +332,19 @@ void main() {
 
     // ── Kompatibilitas alias deprecated ────────────────────────────────────────
 
-    test('Alias NepaliAmountConverter masih berfungsi (deprecated)', () {
+    test('Alias IndoAmountConverter masih berfungsi (deprecated)', () {
       // ignore: deprecated_member_use_from_same_package
-      final clips = NepaliAmountConverter.toClips(100);
+      final clips = IndoAmountConverter.toClips(100);
       expect(clips, ['se', 'ratus', 'rupiah', 'saja', 'diterima']);
 
       // ignore: deprecated_member_use_from_same_package
-      final words = NepaliAmountConverter.toWords(100);
+      final words = IndoAmountConverter.toWords(100);
       expect(words, 'satu ratus rupiah saja telah diterima');
     });
 
-    test('Alias NepaliAmountOptions masih berfungsi (deprecated)', () {
+    test('Alias IndoAmountOptions masih berfungsi (deprecated)', () {
       // ignore: deprecated_member_use_from_same_package
-      const opts = NepaliAmountOptions(
+      const opts = IndoAmountOptions(
         includeSaja: false,
         includeDiterima: false,
       );
@@ -472,14 +472,15 @@ void main() {
       });
     });
 
-    // ── Validasi tidak ada referensi Nepali dalam kode aktif ──────────────────
+    // ── Validasi tidak ada referensi Indo dalam kode aktif ──────────────────
 
-    test('Tidak ada referensi "Nepali" dalam output kata', () {
+    test('Tidak ada referensi "Indo" dalam output kata', () {
       final testAmounts = [0, 1, 100, 1000, 1000000, 1000000000];
       for (final amount in testAmounts) {
         final words = IndonesianAmountConverter.toWords(amount);
-        expect(words.toLowerCase().contains('nepali'), isFalse,
-            reason: 'Referensi "Nepali" ditemukan dalam output untuk $amount');
+        expect(words.toLowerCase().contains('indo'), isFalse,
+            reason:
+                'Referensi "Indonesian" ditemukan dalam output untuk $amount');
       }
     });
   });

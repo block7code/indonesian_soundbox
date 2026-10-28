@@ -64,7 +64,7 @@ class IndonesianSoundbox {
     final candidates = [
       "packages/soundbox_indonesian/assets/audio/$clipKey.mp3",
       "packages/indonesian_soundbox/assets/audio/$clipKey.mp3",
-      "packages/nepali_tts/assets/audio/$clipKey.mp3",
+      "packages/indonesian_tts/assets/audio/$clipKey.mp3",
       "assets/audio/$clipKey.mp3",
       "audio/$clipKey.mp3",
     ];
@@ -201,11 +201,11 @@ class IndonesianSoundbox {
 
 /// Alias kompatibilitas mundur untuk [IndonesianSoundbox].
 @Deprecated('Gunakan IndonesianSoundbox')
-typedef NepaliSoundbox = IndonesianSoundbox;
+typedef IndoSoundbox = IndonesianSoundbox;
 
 /// Alias kompatibilitas mundur untuk [IndonesianSoundbox].
 @Deprecated('Gunakan IndonesianSoundbox')
-typedef NepaliTTS = IndonesianSoundbox;
+typedef IndoTTS = IndonesianSoundbox;
 
 /// Alias Bahasa Indonesia tambahan untuk [IndonesianSoundbox].
 typedef SoundboxIndonesia = IndonesianSoundbox;

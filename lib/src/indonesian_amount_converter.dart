@@ -23,7 +23,7 @@ class IndonesianAmountOptions {
 
 /// Alias untuk kompatibilitas mundur.
 @Deprecated('Gunakan IndonesianAmountOptions')
-typedef NepaliAmountOptions = IndonesianAmountOptions;
+typedef IndoAmountOptions = IndonesianAmountOptions;
 
 /// Pecahan desimal di-*floor* (dipotong, bukan dibulatkan) dan tidak diucapkan.
 /// Kata "sen" / "paisa" tidak pernah muncul dalam hasil.
@@ -216,4 +216,4 @@ abstract final class IndonesianAmountConverter {
 
 /// Alias untuk kompatibilitas mundur.
 @Deprecated('Gunakan IndonesianAmountConverter')
-typedef NepaliAmountConverter = IndonesianAmountConverter;
+typedef IndoAmountConverter = IndonesianAmountConverter;

@@ -49,10 +49,19 @@ import 'package:indonesian_soundbox/indonesian_soundbox.dart';
 ### 1. Mengumumkan Nominal Pembayaran (Gaya Soundbox QRIS / Merchant)
 
 ```dart
-final soundbox = NepaliSoundbox(); // atau gunakan alias SoundboxIndonesia()
+final soundbox = IndonesianSoundbox(); // atau gunakan alias SoundboxIndonesia()
 
 // Mengucapkan: "satu ribu lima ratus tiga puluh rupiah tiga puluh sen saja telah diterima"
-await soundbox.speakAmount(1530.30);
+await soundbox.speakAmount(
+  500,
+  options: const IndonesianAmountOptions(
+    includeSaja: true,        
+    includeDiterima: true,   
+  ),
+);
+
+// Converter Modul (Ubah dari IndonesianAmountConverter ke IndonesianAmountConverter)
+String words = IndonesianAmountConverter.toWords(1530.30);
 
 // Hentikan pemutaran kapan saja:
 await soundbox.stop();
@@ -75,7 +84,7 @@ await soundbox.speakAmount(
 ```dart
 await soundbox.speakAmount(
   500,
-  options: const NepaliAmountOptions(
+  options: const IndonesianAmountOptions(
     includeSaja: true,         // Menambahkan "saja" di akhir
     includeDiterima: true,   // Menambahkan "telah diterima" di akhir
     includeRaForDan: true,    // Menambahkan "dan" sebelum sen (contoh: rupiah dan 25 sen)
@@ -89,11 +98,11 @@ Anda juga dapat menggunakan modul converter secara langsung tanpa memutar audio:
 
 ```dart
 // Mendapatkan teks kata-kata Bahasa Indonesia
-String words = NepaliAmountConverter.toWords(1530.30);
+String words = IndonesianAmountConverter.toWords(1530.30);
 // -> "satu ribu lima ratus tiga puluh rupiah tiga puluh sen saja telah diterima"
 
 // Mendapatkan urutan kunci klip audio
-List<String> clips = NepaliAmountConverter.toClips(1530.30);
+List<String> clips = IndonesianAmountConverter.toClips(1530.30);
 // -> ['1', 'ribu', '5', 'ribu', '30', 'rupiah', '30', 'dan', 'saja', 'diterima']
 ```
 

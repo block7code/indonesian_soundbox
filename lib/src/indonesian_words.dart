@@ -105,7 +105,7 @@ const Map<String, String> indonesianExtraWords = {
 
 // Aliases untuk kompatibilitas mundur (jika masih dipanggil di tempat lain)
 @Deprecated('Gunakan indonesianNumbers0To99')
-const List<String> nepaliNumbers0To99 = indonesianNumbers0To99;
+const List<String> indoNumbers0To99 = indonesianNumbers0To99;
 
 @Deprecated('Gunakan indonesianExtraWords')
-const Map<String, String> nepaliExtraWords = indonesianExtraWords;
+const Map<String, String> indoExtraWords = indonesianExtraWords;
