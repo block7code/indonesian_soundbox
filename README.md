@@ -11,9 +11,12 @@ Dilengkapi dengan **110 klip audio berkualitas studio dan ternormalisasi volume*
 
 ## Demo Video
 
-[▶ Lihat secara langsung Indonesian Soundbox Demo](demo/demo_indonesian_soundbox.mp4)
+<h2>Demo Video</h2>
 
-[Download Demo Video](demo/demo_indonesian_soundbox.mp4)
+<video controls width="100%">
+  <source src="https://github.com/block7code/indonesian_soundbox/raw/refs/heads/main/demo/demo_indonesian_soundbox.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Coba paket ini secara langsung pada demo web:
 
