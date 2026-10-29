@@ -1,6 +1,6 @@
 name: indonesian_soundbox
 description: Paket soundbox pengumuman nominal pembayaran dan mata uang untuk Flutter menggunakan klip audio bawaan berkualitas tinggi.
-version: 0.0.2
+version: 0.0.1
 homepage: https://github.com/block7code/indonesian_soundbox
 repository: https://github.com/block7code/indonesian_soundbox
 issue_tracker: https://github.com/block7code/indonesian_soundbox/issues

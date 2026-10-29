@@ -29,7 +29,7 @@ Tambahkan dependensi berikut ke dalam file `pubspec.yaml` Anda:
 
 ```yaml
 dependencies:
-  indonesian_soundbox: ^0.0.2
+  indonesian_soundbox: ^0.0.1
 ```
 
 Kemudian jalankan:
