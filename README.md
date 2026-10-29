@@ -18,9 +18,18 @@ Dilengkapi dengan **110 klip audio berkualitas studio dan ternormalisasi volume*
   Your browser does not support the video tag.
 </video>
 
-Coba paket ini secara langsung pada demo video:
 
-👉 [**Indonesian Soundbox Demo ↗**](https://block7code.github.io/indonesian_soundbox_demo/)
+<p>
+  Coba paket ini secara langsung pada demo web:
+</p>
+
+<p>
+  👉 <a href="https://block7code.github.io/indonesian_soundbox_demo/"
+       target="_blank"
+       rel="noopener noreferrer">
+       Buka Indonesian Soundbox Demo di tab baru ↗
+     </a>
+</p>
 
 ## 🚀 Fitur
 
