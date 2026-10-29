@@ -3,35 +3,19 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Demo](https://img.shields.io/badge/Demo-Lihat%20Demo-8b5cf6.svg)](https://block7code.github.io/indonesian_soundbox_demo/)
 
-Paket soundbox pengumuman pembayaran dan mata uang berkinerja tinggi untuk Flutter (gaya soundbox merchant / EDC / QRIS soundbox).
+Package soundbox pengumuman pembayaran dan mata uang berkinerja tinggi untuk Flutter (gaya soundbox merchant / EDC / QRIS soundbox).
 
 Dilengkapi dengan **110 klip audio berkualitas studio dan ternormalisasi volume** (0–99, unit nominal, dan sufiks pembayaran) yang memungkinkan pemutaran audio lancar, tanpa jeda (zero-latency), dan sepenuhnya offline tanpa memerlukan API key cloud TTS atau koneksi internet saat runtime.
 
-## 🎬 Demo / Visual
+## 🎬 Demo 
 
-## Demo Video
+Coba package ini secara langsung pada demo web:
 
-<h2>Demo Video</h2>
-
-<video controls width="100%">
-  <source src="https://github.com/block7code/indonesian_soundbox/raw/refs/heads/main/demo/demo_indonesian_soundbox.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-
-<p>
-  Coba paket ini secara langsung pada demo web:
-</p>
-
-<p>
-  👉 <a href="https://block7code.github.io/indonesian_soundbox_demo/" target="_blank">
-  👉 Coba Indonesian Soundbox Demo
-</a>
-</p>
+👉 https://block7code.github.io/indonesian_soundbox_demo/
 
 ## 🚀 Fitur
 
-- 🔊 **100% Offline & Instan**: Semua 110 klip angka dan mata uang (`0`–`99`, `ribu`, `ribu`, `satuanribu`, `crore`, `miliar`, `rupiah`, `dan`, `saja`, `diterima`, `ra`) sudah dibundel langsung ke dalam paket.
+- 🔊 **100% Offline & Instan**: Semua 110 klip angka dan mata uang (`0`–`99`, `ribu`, `ribu`, `satuanribu`, `crore`, `miliar`, `rupiah`, `dan`, `saja`, `diterima`, `ra`) sudah dibundel langsung ke dalam package.
 - ⚡ **Pengurutan Soundbox Tanpa Latensi**: Menggunakan sistem byte caching di memori dengan pengurutan mulus, meniru terminal fisik soundbox pedagang / merchant.
 - 🎛️ **Kontrol Kecepatan & Jeda**: Sesuaikan laju ucapan (`0.5x` hingga `2.0x`) dan spasi keheningan antarkata (`gapMs` dari `-100ms` untuk ucapan cepat hingga `200ms` untuk artikulasi lebih tenang).
 - 🇮🇩 **Tata Bahasa & Pengucapan Nominal yang Akurat**: Menguraikan angka menjadi kata-kata nominal yang jelas (satu, ratus, ribu, rupiah, sen, saja, telah diterima).
@@ -56,7 +40,7 @@ flutter pub get
 
 ## 💡 Penggunaan
 
-Impor paket ke dalam file Dart Anda:
+Impor package ke dalam file Dart Anda:
 
 ```dart
 import 'package:indonesian_soundbox/indonesian_soundbox.dart';
@@ -124,7 +108,7 @@ List<String> clips = IndonesianAmountConverter.toClips(1530.30);
 
 ## 📦 Bundel Klip Audio
 
-Paket ini menyertakan 110 klip audio ternormalisasi:
+Package ini menyertakan 110 klip audio ternormalisasi:
 
 | Kunci Klip | Kata Bahasa Indonesia | Makna / Arti |
 | :--- | :--- | :--- |
@@ -156,3 +140,11 @@ Kontribusi selalu diterima! Jangan ragu untuk membuat issue atau mengirimkan pul
 ## 📄 Lisensi
 
 Berlisensi di bawah [Lisensi MIT](LICENSE).
+
+---
+
+## Support My Work ☕
+
+If you find this package useful, consider supporting its development.
+
+[☕ Buy Me a Coffee](https://buymeacoffee.com/block7code)
