@@ -146,11 +146,7 @@ Berlisensi di bawah [Lisensi MIT](LICENSE).
 
 ## ☕ Traktir Kopi, Dukung Open-Source!
 
-Merasa terbantu dengan package ini? 💙 Traktir saya secangkir kopi untuk mendukung pengembangannya!
-
-Dukungan kamu sangat berarti untuk membantu saya memperbaiki bug, meningkatkan kualitas package, menyempurnakan dokumentasi, dan menghadirkan lebih banyak tools open-source yang bermanfaat bagi komunitas Flutter.
-
-Sekecil apa pun dukunganmu, dampaknya sangat berarti. Terima kasih telah menjadi bagian dari perjalanan open-source ini! 🙌
+Merasa terbantu dengan package ini? 💙 Traktir saya kopi untuk mendukung pengembangan package dan menghadirkan lebih banyak tools open-source bagi komunitas Flutter. ☕ Terima kasih atas dukunganmu! 🙌
 
 - 🇮🇩 [Indonesia — Traktir melalui Trakteer](https://trakteer.id/block7code)
 - 🌍 [International — Buy Me a Coffee](https://buymeacoffee.com/block7code)
