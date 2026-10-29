@@ -24,11 +24,9 @@ Dilengkapi dengan **110 klip audio berkualitas studio dan ternormalisasi volume*
 </p>
 
 <p>
-  👉 <a href="https://block7code.github.io/indonesian_soundbox_demo/"
-       target="_blank"
-       rel="noopener noreferrer">
-       Buka Indonesian Soundbox Demo di tab baru ↗
-     </a>
+  👉 <a href="https://block7code.github.io/indonesian_soundbox_demo/" target="_blank">
+  👉 Coba Indonesian Soundbox Demo
+</a>
 </p>
 
 ## 🚀 Fitur
