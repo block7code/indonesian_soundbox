@@ -55,7 +55,7 @@ class IndonesianSoundbox {
     );
   }
 
-  /// Memuat byte klip audio dari asset bundle, memeriksa kemungkinan prefiks paket.
+  /// Memuat byte klip audio dari asset bundle, memeriksa kemungkinan prefiks package.
   Future<Uint8List> _loadClipBytes(String clipKey) async {
     if (_audioCache.containsKey(clipKey)) {
       return _audioCache[clipKey]!;
