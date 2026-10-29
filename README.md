@@ -9,6 +9,12 @@ Dilengkapi dengan **110 klip audio berkualitas studio dan ternormalisasi volume*
 
 ## 🎬 Demo / Visual
 
+## Demo Video
+
+[▶ Lihat secara langsung Indonesian Soundbox Demo](demo/demo_indonesian_soundbox.mp4)
+
+[Download Demo Video](demo/demo_indonesian_soundbox.mp4)
+
 Coba paket ini secara langsung pada demo web:
 
 👉 https://block7code.github.io/indonesian_soundbox_demo/

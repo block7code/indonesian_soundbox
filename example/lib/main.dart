@@ -20,8 +20,8 @@ class IndonesianSoundboxDemoApp extends StatelessWidget {
         useMaterial3: true,
         scaffoldBackgroundColor: Colors.white,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF0F766E),
-          primary: const Color(0xFF0F766E),
+          seedColor: const Color(0xFF1D4ED8),
+          primary: const Color(0xFF1D4ED8),
           surface: Colors.white,
         ),
       ),
@@ -39,7 +39,7 @@ class FlatSoundboxScreen extends StatefulWidget {
 
 class _FlatSoundboxScreenState extends State<FlatSoundboxScreen> {
   final TextEditingController _amountController =
-      TextEditingController(text: '1670');
+      TextEditingController(text: '16000');
   late final IndonesianSoundbox _soundbox;
 
   bool _includeSaja = true;
@@ -169,7 +169,7 @@ class _FlatSoundboxScreenState extends State<FlatSoundboxScreen> {
                     prefixStyle: TextStyle(
                       fontSize: isDesktop ? 26 : 22,
                       fontWeight: FontWeight.w700,
-                      color: const Color(0xFF0F766E),
+                      color: const Color(0xFF1D4ED8),
                     ),
                     filled: true,
                     fillColor: const Color(0xFFF8FAFC),
@@ -188,7 +188,7 @@ class _FlatSoundboxScreenState extends State<FlatSoundboxScreen> {
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
                       borderSide: const BorderSide(
-                        color: Color(0xFF0F766E),
+                        color: Color(0xFF1D4ED8),
                         width: 1.5,
                       ),
                     ),
@@ -252,7 +252,7 @@ class _FlatSoundboxScreenState extends State<FlatSoundboxScreen> {
                     style: ElevatedButton.styleFrom(
                       backgroundColor: _isPlaying
                           ? const Color(0xFFDC2626)
-                          : const Color(0xFF0F766E),
+                          : const Color(0xFF1D4ED8),
                       foregroundColor: Colors.white,
                       elevation: 0,
                       shape: RoundedRectangleBorder(
@@ -303,7 +303,7 @@ class _FlatSoundboxScreenState extends State<FlatSoundboxScreen> {
                       style: const TextStyle(
                         fontSize: 13,
                         fontWeight: FontWeight.w600,
-                        color: Color(0xFF0F766E),
+                        color: Color(0xFF1D4ED8),
                       ),
                     ),
                   ],
@@ -319,7 +319,7 @@ class _FlatSoundboxScreenState extends State<FlatSoundboxScreen> {
                     min: 0.5,
                     max: 2.0,
                     divisions: 15,
-                    activeColor: const Color(0xFF0F766E),
+                    activeColor: const Color(0xFF1D4ED8),
                     inactiveColor: const Color(0xFFE2E8F0),
                     onChanged: (val) => setState(() => _speed = val),
                   ),
@@ -343,7 +343,7 @@ class _FlatSoundboxScreenState extends State<FlatSoundboxScreen> {
                       style: const TextStyle(
                         fontSize: 13,
                         fontWeight: FontWeight.w600,
-                        color: Color(0xFF0F766E),
+                        color: Color(0xFF1D4ED8),
                       ),
                     ),
                   ],
@@ -359,7 +359,7 @@ class _FlatSoundboxScreenState extends State<FlatSoundboxScreen> {
                     min: 0,
                     max: 200,
                     divisions: 20,
-                    activeColor: const Color(0xFF0F766E),
+                    activeColor: const Color(0xFF1D4ED8),
                     inactiveColor: const Color(0xFFE2E8F0),
                     onChanged: (val) => setState(() => _gapMs = val.round()),
                   ),
@@ -375,7 +375,7 @@ class _FlatSoundboxScreenState extends State<FlatSoundboxScreen> {
                     'Tambahkan "Saja" (Only)',
                     style: TextStyle(fontSize: 13, color: Color(0xFF334155)),
                   ),
-                  activeThumbColor: const Color(0xFF0F766E),
+                  activeThumbColor: const Color(0xFF1D4ED8),
                   value: _includeSaja,
                   onChanged: (val) => setState(() => _includeSaja = val),
                 ),
@@ -386,7 +386,7 @@ class _FlatSoundboxScreenState extends State<FlatSoundboxScreen> {
                     'Tambahkan "Telah Diterima" (Received)',
                     style: TextStyle(fontSize: 13, color: Color(0xFF334155)),
                   ),
-                  activeThumbColor: const Color(0xFF0F766E),
+                  activeThumbColor: const Color(0xFF1D4ED8),
                   value: _includeDiterima,
                   onChanged: (val) => setState(() => _includeDiterima = val),
                 ),
